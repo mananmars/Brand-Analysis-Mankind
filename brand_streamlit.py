@@ -183,8 +183,8 @@ if selected_option == "Brand Analysis":
                 f'<strong style="color:#b30000;">Doctor Concerns (3)</strong><br>'
         f'<ul style="text-align: left; padding-left: 20px;">'
         f'<li>Safety during Pregnancy</li>'
-        f'<li>Competitor absorption claims/li>'
-        f'<li>Lower Calcium than other brands/li>'
+        f'<li>Competitor absorption claims</li>'
+        f'<li>Lower Calcium than other brands</li>'
         f'</ul>'
                 f'</div>', unsafe_allow_html=True
             )
