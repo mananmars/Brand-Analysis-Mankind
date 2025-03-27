@@ -1,6 +1,14 @@
 import streamlit as st
 import os
 
+
+hide_github_icon = """
+#MainMenu {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 # Directories
 AUDIO_DIR = "saved_audio"
 TRANSCRIPT_DIR = "saved_transcripts"
